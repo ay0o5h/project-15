@@ -1,0 +1,785 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.font, .navbarr .navbar-nav .nav-link, .main .overlay h3, .main .overlay .btn, .icons h3, .icons p, .responsive .btn, .responsive .row h3, .responsive .row p, .modren h3, .modren p, .comment h3, .comment span, .comment p, .comment h5, .comment address, .portfolio h3, .portfolio p, .portfolio .btn, .video h3, .video p, .video h5, .icons2 h3, .icons2 p, .teams h3, .teams p, .teams h4, .teams h5, .about h3, .about p, .artist p, .news h2, .news address, .news h3, .news p, .news span, .news .p, .subscribe p, .subscribe .btn, .client h3, .client p, .client h4, .client h5, .contact h3, .contact p, .contact form input, .contact form textarea, .contact form .btn, .contact form span, .footer p {
+  text-transform: capitalize;
+  font-weight: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.bttn1, .main .overlay .btn, .responsive .btn, .portfolio .btn, .subscribe .btn, .contact form .btn {
+  background-color: transparent;
+  color: #11f4ed;
+  border: 1px solid #11f4ed;
+  font-size: 30px;
+}
+
+.bttn1:hover, .main .overlay .btn:hover, .responsive .btn:hover, .portfolio .btn:hover, .subscribe .btn:hover, .contact form .btn:hover {
+  background-color: #11f4ed;
+  color: black;
+  border: 1px solid black;
+}
+
+.navbarr .navbar-brand {
+  margin-left: 100px;
+}
+
+.navbarr .navbar-nav {
+  float: right;
+  margin-left: 200px;
+}
+
+.navbarr .navbar-nav .nav-link {
+  color: black;
+}
+
+.navbarr .navbar-nav .active {
+  border-bottom: 2px solid #11f4ed;
+}
+
+.main {
+  background-image: url("pic3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.main .overlay {
+  background-color: black;
+  opacity: 0.8;
+  width: 100%;
+  height: 600px;
+  position: absolute;
+}
+
+.main .overlay h3 {
+  color: #11f4ed;
+  font-size: 50px;
+  position: relative;
+  top: 30%;
+}
+
+.main .overlay .btn {
+  margin-left: -70px;
+  position: absolute;
+  top: 50%;
+}
+
+.icons {
+  margin-top: 5%;
+}
+
+.icons .row {
+  margin-right: 0;
+}
+
+.icons i {
+  font-size: 50px;
+  color: #11f4ed;
+  margin-bottom: 30px;
+}
+
+.icons h3 {
+  border-bottom: 1px solid #11f4ed;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.icons p {
+  text-align: center;
+}
+
+.responsive {
+  padding: 3%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.responsive .btn3 {
+  background-color: #11f4ed;
+  color: black;
+  border: 1px solid black;
+}
+
+.responsive .btn {
+  margin-top: 5%;
+  padding: 0 2% 0 2%;
+  width: 300px;
+  position: relative;
+}
+
+.responsive .btn .cli {
+  content: '';
+  border-style: solid;
+  border-color: #11f4ed transparent transparent transparent;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  height: 5px;
+  width: 0px;
+  border-width: 10px;
+  position: absolute;
+  bottom: -20px;
+  right: 50%;
+}
+
+.responsive .btn .cli1 {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.responsive .btn .cli2 {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.responsive .row {
+  margin-top: 10%;
+}
+
+.responsive .row h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.responsive .row p {
+  text-align: center;
+}
+
+.modren {
+  background-image: url("pic5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.modren .overlay {
+  background-color: black;
+  opacity: 0.9;
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+.modren h3, .modren p {
+  color: blanchedalmond;
+  position: relative;
+  top: 3%;
+}
+
+.modren img {
+  height: 360px;
+  opacity: 1;
+  border: 1px solid blanchedalmond;
+  position: absolute;
+  bottom: 0;
+  right: 25%;
+}
+
+.comment {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.comment .com {
+  width: 350px;
+  height: 300px;
+  border-left: 2px solid black;
+  text-align: left;
+  position: relative;
+  left: 5px;
+}
+
+.comment h3 {
+  color: #11f4ed;
+  margin-left: 10%;
+}
+
+.comment span {
+  color: #11f4ed;
+  margin-left: 10%;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.comment p {
+  color: black;
+  margin-left: 10%;
+}
+
+.comment p:after {
+  content: '';
+  padding: 1%;
+  height: 10px;
+  width: 10px;
+  border: 5px solid #11f4ed;
+  border-radius: 50%;
+  position: absolute;
+  top: 35%;
+  left: -10px;
+}
+
+.comment p:before {
+  content: '';
+  padding: 1%;
+  height: 10px;
+  width: 10px;
+  border: 3px solid black;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 36%;
+  left: -7px;
+}
+
+.comment h5 {
+  color: black;
+  margin-left: 10%;
+}
+
+.comment address {
+  color: gray;
+  font-size: 10px;
+  margin-left: 10%;
+}
+
+.portfolio {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.portfolio h3, .portfolio p {
+  color: black;
+  margin-left: 10%;
+}
+
+.portfolio .btn {
+  margin: 50px auto;
+}
+
+.portfolio .active1 {
+  background-color: #11f4ed;
+  color: black;
+  border: 1px solid black;
+}
+
+.portfolio .items {
+  height: 500px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid black;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+  will-change: transform;
+  position: relative;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-perspective: 500px;
+          perspective: 500px;
+}
+
+.portfolio .items.active2 {
+  background: rgba(255, 255, 255, 0.3);
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.portfolio .item {
+  width: 400px;
+  height: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.portfolio .item:nth-child(9n+1) {
+  background-image: url("pic8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio .item:nth-child(9n+2) {
+  background-image: url("pic9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio .item:nth-child(9n+3) {
+  background-image: url("pic3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio .item:nth-child(9n+4) {
+  background-image: url("pic5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio .item:nth-child(9n+5) {
+  background-image: url("pic13.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio .item:nth-child(9n+6) {
+  background-image: url("pic14.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio .item:nth-child(9n+7) {
+  background-image: url("pic7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio .item:nth-child(9n+8) {
+  background-image: url("pic11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio .item:nth-child(9n+9) {
+  background-image: url("pic10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio .item:nth-child(9n+10) {
+  background-image: url("pic12.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio .item:nth-child(9n+11) {
+  background-image: url("pic2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio .item:nth-child(9n+12) {
+  background-image: url("pic15.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio .item:nth-child(9n+13) {
+  background-image: url("pic16.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio .item:nth-child(9n+14) {
+  background-image: url("pic17.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio .item:nth-child(9n+15) {
+  background-image: url("pic18.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.video {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.video embed {
+  height: 400px;
+  width: 100%;
+}
+
+.video .overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.46);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.video h3, .video p, .video h5 {
+  color: beige;
+  position: relative;
+  top: 20%;
+}
+
+.video h5 {
+  font-size: 50px;
+  color: #11f4ed;
+  cursor: pointer;
+}
+
+.icons2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-color: black;
+  padding: 5%;
+}
+
+.icons2 .row {
+  margin-right: 0;
+}
+
+.icons2 i {
+  font-size: 50px;
+  color: #11f4ed;
+  margin-bottom: 30px;
+}
+
+.icons2 h3, .icons2 p {
+  color: beige;
+}
+
+.teams {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 5%;
+  position: relative;
+}
+
+.teams .row {
+  margin-right: 0;
+}
+
+.teams h3, .teams p, .teams h4, .teams h5 {
+  color: black;
+}
+
+.teams h4 {
+  color: #11f4ed;
+}
+
+.teams h5 {
+  color: blanchedalmond;
+}
+
+.teams .col-sm-3 {
+  border: 1px solid black;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.teams .overlay {
+  position: absolute;
+  background-color: black;
+  opacity: 0.9;
+  left: 0;
+  right: 0;
+  top: 50%;
+  bottom: 28%;
+  z-index: 2;
+}
+
+.teams img {
+  width: 100%;
+  height: 300px;
+}
+
+.teams i {
+  font-size: 30px;
+  padding: 3.5%;
+  width: 23.8%;
+  border: 1px solid black;
+  color: beige;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.teams i:hover {
+  -webkit-box-shadow: 3px 3px 3px 3px black;
+          box-shadow: 3px 3px 3px 3px black;
+}
+
+.teams .fa-facebook {
+  background-color: blue;
+}
+
+.teams .fa-instagram {
+  background-color: red;
+}
+
+.teams .fa-twitter {
+  background-color: lightblue;
+}
+
+.teams .fa-google {
+  color: blue;
+}
+
+.about {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 5%;
+  margin: 50px auto;
+}
+
+.about h3, .about p {
+  color: black;
+}
+
+.about .col-sm-6:nth-child(2) {
+  border: 1px solid black;
+  text-align: left;
+}
+
+.artist {
+  background-image: url("pic10.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 5%;
+  margin: 50px auto;
+  height: 200px;
+  position: relative;
+}
+
+.artist .overlay {
+  position: absolute;
+  background-color: black;
+  opacity: 0.9;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.artist p {
+  color: blanchedalmond;
+}
+
+.artist i {
+  font-size: 30px;
+  color: #11f4ed;
+  margin-top: 5%;
+}
+
+.news {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 5%;
+  margin: 20px auto;
+}
+
+.news .row {
+  margin-right: 0;
+}
+
+.news h2 {
+  color: #11f4ed;
+  font-size: 50px;
+}
+
+.news address {
+  color: black;
+  font-size: 10px;
+}
+
+.news h3, .news p {
+  color: black;
+}
+
+.news span {
+  color: #11f4ed;
+  font-size: 20px;
+  margin-top: 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.news .c {
+  text-align: right;
+}
+
+.news .c1 {
+  border-bottom: 1px solid black;
+}
+
+.news .col-8 {
+  -ms-flex: 0 0 66.666667%;
+  -webkit-box-flex: 0;
+          flex: 0 0 66.666667%;
+  max-width: 50%;
+}
+
+.news .p {
+  color: black;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.subscribe {
+  background-image: url("pic10.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 5%;
+  margin: 50px auto;
+  height: 300px;
+  position: relative;
+}
+
+.subscribe .overlay {
+  position: absolute;
+  background-color: black;
+  opacity: 0.9;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.subscribe p {
+  color: blanchedalmond;
+  margin-top: 7%;
+}
+
+.client {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.client h3, .client p, .client h4, .client h5 {
+  color: black;
+}
+
+.client .row {
+  margin-right: 0;
+}
+
+.client h5 {
+  color: #11f4ed;
+}
+
+.client .col-sm-4 {
+  border: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contact {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-color: black;
+  padding: 5%;
+}
+
+.contact h3, .contact p {
+  color: blanchedalmond;
+  margin-top: 1%;
+}
+
+.contact form {
+  display: block;
+}
+
+.contact form input, .contact form textarea {
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid blanchedalmond;
+  border-radius: 5px;
+  outline: none;
+  color: blanchedalmond;
+  width: 50%;
+  padding: 2%;
+  margin-top: 2%;
+}
+
+.contact form .btn {
+  display: block;
+  margin-top: 2%;
+}
+
+.contact form span {
+  margin-top: 2%;
+  color: red;
+  display: none;
+}
+
+.footer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-color: black;
+  padding: 2%;
+}
+
+.footer p {
+  color: blanchedalmond;
+}
+
+.footer span {
+  color: #11f4ed;
+}
+/*# sourceMappingURL=style.css.map */
